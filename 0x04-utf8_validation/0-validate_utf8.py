@@ -2,9 +2,10 @@
 
 """UTF-8 Validation"""
 
+
 def validUTF8(data) -> bool:
     """
-    determines if a given data set represents a valid UTF-8 encoding.
+    determines if a given data set represents a valid UTF-8 encoding
     """
     num_bytes = 0
     for byte in data:
