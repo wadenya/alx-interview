@@ -55,9 +55,9 @@ def isWinner(x, nums):
     """
     players = {'Laura': 0, 'Alex': 0}
     cluster = set()
-    for elemnt in range(x):
+    for elem in range(x):
         nums.sort()
-        num = nums[elemnt]
+        num = nums[elem]
         for i in range(1, num + 1):
             cluster.add(i)
             if i == num + 1:
